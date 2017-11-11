@@ -12,6 +12,10 @@
 		A82BD2E91FB72C4700E41B41 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82BD2E81FB72C4700E41B41 /* Follow.storyboard */; };
 		A82BD2EC1FB72C5800E41B41 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82BD2EA1FB72C5800E41B41 /* Mine.storyboard */; };
 		A82BD2EE1FB72E5100E41B41 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82BD2ED1FB72E5100E41B41 /* MainViewController.swift */; };
+		A82BD2FF1FB7326900E41B41 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82BD2FE1FB7326900E41B41 /* HomeViewController.swift */; };
+		A82BD3021FB7385300E41B41 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82BD3011FB7385300E41B41 /* UIBarButtonItem-Extension.swift */; };
+		A82BD3041FB73FC000E41B41 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82BD3031FB73FC000E41B41 /* PageTitleView.swift */; };
+		A82BD3061FB7419C00E41B41 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82BD3051FB7419C00E41B41 /* Common.swift */; };
 		A85BE30B1FB71C7300107AA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85BE30A1FB71C7300107AA4 /* AppDelegate.swift */; };
 		A85BE3101FB71C7300107AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85BE30E1FB71C7300107AA4 /* Main.storyboard */; };
 		A85BE3121FB71C7300107AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A85BE3111FB71C7300107AA4 /* Assets.xcassets */; };
@@ -19,11 +23,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A82BD2E31FB72BFF00E41B41 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = ../Main/Home.storyboard; sourceTree = "<group>"; };
+		A82BD2E31FB72BFF00E41B41 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = ../../Main/Home.storyboard; sourceTree = "<group>"; };
 		A82BD2E61FB72C2500E41B41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Douyu/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
 		A82BD2E81FB72C4700E41B41 /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Follow.storyboard; path = ../Main/Follow.storyboard; sourceTree = "<group>"; };
 		A82BD2EB1FB72C5800E41B41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Douyu/Base.lproj/Mine.storyboard; sourceTree = SOURCE_ROOT; };
-		A82BD2ED1FB72E5100E41B41 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A82BD2ED1FB72E5100E41B41 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
+		A82BD2FE1FB7326900E41B41 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A82BD3011FB7385300E41B41 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		A82BD3031FB73FC000E41B41 /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		A82BD3051FB7419C00E41B41 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		A85BE3071FB71C7300107AA4 /* Douyu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Douyu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85BE30A1FB71C7300107AA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A85BE30F1FB71C7300107AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,6 +51,123 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A82BD2EF1FB730F400E41B41 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A82BD2E31FB72BFF00E41B41 /* Home.storyboard */,
+				A82BD2FE1FB7326900E41B41 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A82BD2F01FB730F400E41B41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A82BD2F11FB730F400E41B41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A82BD2F21FB731F700E41B41 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A82BD2ED1FB72E5100E41B41 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A82BD2F31FB731F700E41B41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A82BD2F41FB731F700E41B41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A82BD3031FB73FC000E41B41 /* PageTitleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A82BD2F51FB7320F00E41B41 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A82BD2F61FB7320F00E41B41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A82BD2F71FB7320F00E41B41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A82BD2F81FB7321A00E41B41 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A82BD2F91FB7321A00E41B41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A82BD2FA1FB7321A00E41B41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A82BD2FB1FB7322E00E41B41 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A82BD2FC1FB7322E00E41B41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A82BD2FD1FB7322E00E41B41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A82BD3001FB7381B00E41B41 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A82BD3011FB7385300E41B41 /* UIBarButtonItem-Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		A85BE2FE1FB71C7300107AA4 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +212,9 @@
 		A85BE31D1FB7234600107AA4 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				A82BD2F81FB7321A00E41B41 /* Controller */,
+				A82BD2F91FB7321A00E41B41 /* Model */,
+				A82BD2FA1FB7321A00E41B41 /* View */,
 				A82BD2E81FB72C4700E41B41 /* Follow.storyboard */,
 			);
 			path = Follow;
@@ -95,7 +223,9 @@
 		A85BE31E1FB7234600107AA4 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				A82BD2E31FB72BFF00E41B41 /* Home.storyboard */,
+				A82BD2EF1FB730F400E41B41 /* Controller */,
+				A82BD2F01FB730F400E41B41 /* Model */,
+				A82BD2F11FB730F400E41B41 /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -103,6 +233,9 @@
 		A85BE31F1FB7234600107AA4 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				A82BD2F51FB7320F00E41B41 /* Controller */,
+				A82BD2F61FB7320F00E41B41 /* Model */,
+				A82BD2F71FB7320F00E41B41 /* View */,
 				A82BD2E51FB72C2500E41B41 /* Live.storyboard */,
 			);
 			path = Live;
@@ -111,8 +244,10 @@
 		A85BE3201FB7234600107AA4 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				A82BD2F21FB731F700E41B41 /* Controller */,
+				A82BD2F31FB731F700E41B41 /* Model */,
+				A82BD2F41FB731F700E41B41 /* View */,
 				A85BE30E1FB71C7300107AA4 /* Main.storyboard */,
-				A82BD2ED1FB72E5100E41B41 /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -120,6 +255,9 @@
 		A85BE3211FB7234600107AA4 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				A82BD2FB1FB7322E00E41B41 /* Controller */,
+				A82BD2FC1FB7322E00E41B41 /* Model */,
+				A82BD2FD1FB7322E00E41B41 /* View */,
 				A82BD2EA1FB72C5800E41B41 /* Mine.storyboard */,
 			);
 			path = Profile;
@@ -128,6 +266,8 @@
 		A85BE3221FB7234600107AA4 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				A82BD3001FB7381B00E41B41 /* Extension */,
+				A82BD3051FB7419C00E41B41 /* Common.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -210,6 +350,10 @@
 			files = (
 				A85BE30B1FB71C7300107AA4 /* AppDelegate.swift in Sources */,
 				A82BD2EE1FB72E5100E41B41 /* MainViewController.swift in Sources */,
+				A82BD3041FB73FC000E41B41 /* PageTitleView.swift in Sources */,
+				A82BD3021FB7385300E41B41 /* UIBarButtonItem-Extension.swift in Sources */,
+				A82BD3061FB7419C00E41B41 /* Common.swift in Sources */,
+				A82BD2FF1FB7326900E41B41 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
